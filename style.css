@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  width: 800px;
+  padding: 20px;
+  background: #fff;
+  margin-top: 10px;
+}
+.logo{
+  width: 180px;
+  padding: 2px 0;
+  margin-left: -27px;
+}
+.head{
+  padding-left: 10px;
+}
+.head h3{
+  margin: 0;
+  font-size: 25px;
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 600;
+ 
+}
+input{
+  outline: none;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  padding: 0 10px;
+  height: 35px;
+  font-size: 15px;
+}
+input:focus{
+  border: 1.5px solid #1f52f9;
+}
+.name{
+  display: inline-block;
+}
+input[type="name"]{
+  display: block;
+  margin: 30px 0 0 10px;
+}
+input[type="username"]{
+  display: block;
+  width: 390px;
+  margin: 10px 0 0 10px;
+}
+.gmail{
+  position: relative;
+  display: block;
+  top: -53px;
+  left: 304px;
+  font-family:roboto;
+  color: #333;
+  font-size: 15px;
+  cursor: default;
+}
+.pass{
+  display: inline-block;
+}
+.password{
+  display: block;
+  width: 140px;
+  margin: 0 5px 0 10px;
+}
+label{
+  position: relative;
+  font-family:roboto;
+  color: #555;
+  font-size: 15px;
+  pointer-events: none;
+  left: 20px;
+  top: -30px;
+  transition: .2s all;
+}
+input:focus + label,
+input:valid + label{
+  top: -49px;
+  left: 15px;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #1f52f9;
+}
+a{
+  position: relative;
+  font-family: roboto;
+  text-decoration: none;
+  display: block;
+}
+.line1{
+  font-size: 12px;
+  margin: -30px 0 0 15px;
+}
+.line2{
+  color: #1144ed;
+  font-size: 15px;
+  margin: 20px 0 20px 15px;
+}
+.line3{
+  font-size: 12px;
+  margin: -10px 0 0 15px;
+  width: 310px;
+}
+.line4{
+  font-size: 15px;
+  margin: 20px 8px;
+  color: #4971f6;
+  display: inline-block;
+  font-family: arial rounded mt;
+}
+input[type="submit"]{
+  background:  #4971f6;
+  color: #fff;
+  border: none;
+  padding: 0px 30px;
+  border-radius: 5px;
+  margin:  40px 0 30px 180px;
+  cursor: pointer;
+  font-size: 15px;
+}
+input[type="submit"]:hover{
+  background: #254fdb;
+}
+.iconeye{
+  display: inline-block;
+}
+#eye {
+  display: block;
+  position: relative;
+  top: -23px;
+  width: 27px;
+  cursor: pointer;
+  left: 18px;
+}
+.side-image{
+  display: inline-block;
+  position: relative;
+  top: -50%;
+  left: 50%;
+  transform: translate(50%,50%);
+}
+.side-logo{
+  width: 230px;
+}
+.bootom{
+  position: absolute;
+  top: 106%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 750px;
+}
+.lenguage{
+  position: relative;
+ 
+}
+
+.lenguage::after{
+  content: "\f107";
+font-weight: 600;
+font-family: "Font Awesome 5 Free";
+color: #333;
+width: 19px;
+height: 19px;
+position: absolute;
+font-size: 19px;
+text-align: center;
+background: #bbbbbb61;
+border: 1px solid rgb(199, 197, 197);
+line-height: 16px;
+color: #b7b7b7;
+right: 173px;
+top: 3px;
+pointer-events: none;
+
+}
+.m-right{
+  text-align: right;
+
+ 
+}
+.m-right a{
+  display: inline-block;
+  color: rgb(100, 100, 100);
+  padding: 5px 10px;
+  font-weight: 700;
+}
+select{
+  outline: none;
+  padding: 0px 15px 0px 0px;
+}
